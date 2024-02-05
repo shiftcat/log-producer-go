@@ -1,0 +1,8 @@
+number-of-worker: 3
+kafka:
+  bootstrap-servers: localhost:9092
+  topic-name: EVENT_LOG
+  partitions: 3
+  properties:
+    linger.ms: 9
+    batch.size: 1000000
